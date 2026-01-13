@@ -16,3 +16,12 @@
 #     print("We are the same age.")
 
 ##Q3
+# NumberOne = input("First, enter a number between 1-10.")
+# NumberTwo = input("Second, enter a number between 1-10.")
+
+# if NumberOne > NumberTwo:
+#     print(f"{NumberOne} is greater than {NumberTwo}")
+# elif NumberOne < NumberTwo:
+#     print(f"{NumberOne} is smaller than {NumberTwo}")
+# else:
+#     print(f"{NumberOne} is equal to {NumberTwo}")
