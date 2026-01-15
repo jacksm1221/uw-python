@@ -37,14 +37,27 @@
 # 0-59, F
 # ```
 
-grade = int(input("What was your score? "))
-if grade >= 90:
-    print("A")
-elif grade >= 80 and grade <= 89:
-    print("B")
-elif grade >= 70 and grade <= 79:
-    print("C")
-elif grade >= 60 and grade <= 69:
-    print("D")
+# grade = int(input("What was your score? "))
+# if grade >= 90:
+#     print("A")
+# elif grade >= 80 and grade <= 89:
+#     print("B")
+# elif grade >= 70 and grade <= 79:
+#     print("C")
+# elif grade >= 60 and grade <= 69:
+#     print("D")
+# else:
+#     print("F")
+
+##Q2
+month = input("What month is it? ")
+if month in ("September, October, November"):
+    print("Autumn")
+elif month in ("December, January, February"):
+    print("Winter")
+elif month in ("March, April, Mary"):
+    print("Spring")
+elif month in ("June, July, August"):
+    print("Summer")
 else:
-    print("F")
+    print("That is not a month!")
