@@ -1,3 +1,4 @@
+### Level 1
 ##Q1
 # age = input("Enter your age: ")
 # if int(age) >= 18:
@@ -25,3 +26,25 @@
 #     print(f"{NumberOne} is smaller than {NumberTwo}")
 # else:
 #     print(f"{NumberOne} is equal to {NumberTwo}")
+
+### Level 2
+##Q1
+# ```sh
+# 90-100, A
+# 80-89, B
+# 70-79, C
+# 60-69, D
+# 0-59, F
+# ```
+
+grade = int(input("What was your score? "))
+if grade >= 90:
+    print("A")
+elif grade >= 80 and grade <= 89:
+    print("B")
+elif grade >= 70 and grade <= 79:
+    print("C")
+elif grade >= 60 and grade <= 69:
+    print("D")
+else:
+    print("F")
