@@ -28,3 +28,21 @@
 # while number > -1 :
 #     print(number)
 #     number -= 1
+
+##Q3
+# count = 1
+# while count <= 7:
+#     hashTag = '#'
+#     print(hashTag * count)
+#     count += 1
+
+##Q4
+count = 1
+while count < 64:
+    hashtag = '# '
+    count += 1
+    if count % len(hashtag) == 0 :
+        while count < 8:
+
+        continue
+    print(hashtag*count)
