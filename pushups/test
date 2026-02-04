@@ -1,0 +1,7 @@
+a = [1, 2, 3] # a is a mutable list
+
+b = a  # b is now another name for the same list
+
+a += [4, 5, 6] # in-place add more to a
+
+print(b)
