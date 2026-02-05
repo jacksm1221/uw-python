@@ -1,4 +1,4 @@
-##1 Sleep_in
+##1 sleep_in
 # def sleep_in(weekday, vacation):
 #   return (not weekday or vacation)
 
@@ -6,4 +6,21 @@
 # assert sleep_in(True, False) == False
 # assert sleep_in(False, True) == True
 
-##2 
+##2 monkey_trouble
+# def monkey_trouble(a_smile, b_smile):
+#     return a_smile == b_smile
+
+# assert monkey_trouble(True, True) == True
+# assert monkey_trouble(False, False) == True
+# assert monkey_trouble(True, False) == False
+
+##3 sum_double
+# def sum_double(a, b):
+#     sum = a + b
+#     if a == b:
+#         return (a+b)*2
+#     return sum
+
+# assert sum_double(1, 2) == 3
+# assert sum_double(3, 2) == 5
+# assert sum_double(2, 2) == 8
