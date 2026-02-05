@@ -1,3 +1,5 @@
+###https://codingbat.com/python/Warmup-1
+
 ##1 sleep_in
 # def sleep_in(weekday, vacation):
 #   return (not weekday or vacation)
@@ -26,16 +28,26 @@
 # assert sum_double(2, 2) == 8
 
 ##4 diff_21
-def diff21(n):
-  if n <= 21:
-    return 21 - n
-  else:
-    return (n - 21) * 2
+# def diff21(n):
+#   if n <= 21:
+#     return 21 - n
+#   else:
+#     return (n - 21) * 2
 
-assert diff21(19) == 2
-assert diff21(10) == 11
-assert diff21(21) == 0	
-assert diff21(22) == 2	    
-assert diff21(25) == 8
-assert diff21(30) == 18
-assert diff21(50) == 58
+# assert diff21(19) == 2
+# assert diff21(10) == 11
+# assert diff21(21) == 0	
+# assert diff21(22) == 2	    
+# assert diff21(25) == 8
+# assert diff21(30) == 18
+# assert diff21(50) == 58
+# assert diff21(-1) == 22
+# assert diff21(-2) == 23
+
+##5 parrot_trouble
+def parrot_trouble(talking, hour):
+    pass
+
+assert parrot_trouble(True, 6) == True
+assert parrot_trouble(True, 7) == False
+assert parrot_trouble(False, 6) == False
