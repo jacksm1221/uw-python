@@ -1,4 +1,5 @@
 import os
+import os.path
 # import pathlib    #OR
 
 '''
@@ -14,3 +15,7 @@ Write a program which copies a file from a source, to a destination without usin
 
     This should only be a few lines of code.
 '''
+cwd = os.getcwd()
+print(cwd)
+for each in os.listdir(cwd):
+    print(os.path.abspath(each))
