@@ -15,7 +15,16 @@ Write a program which copies a file from a source, to a destination without usin
 
     This should only be a few lines of code.
 '''
+# Program 1
 cwd = os.getcwd()
 print(cwd)
 for each in os.listdir(cwd):
     print(os.path.abspath(each))
+
+# Program 2
+# with open("pic.png", "rb") as p1_in, open("copy.txt", "wb") as p1_out:
+with open("students.txt", "rb") as p1_in, open("copy.txt", "wb") as p1_out:
+    for i in range(10):
+        p1_out.write(p1_in.readline())
+print(p1_in.closed)
+print(p1_out.closed)
