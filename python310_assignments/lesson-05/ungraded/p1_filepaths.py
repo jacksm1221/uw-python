@@ -22,7 +22,7 @@ for each in os.listdir(cwd):
     print(os.path.abspath(each))
 
 # Program 2
-# with open("pic.png", "rb") as p1_in, open("copy.txt", "wb") as p1_out:
+# with open("pic.png", "rb") as p1_in, open("copy_pic.png", "wb") as p1_out:
 with open("students.txt", "rb") as p1_in, open("copy.txt", "wb") as p1_out:
     for i in range(10):
         p1_out.write(p1_in.readline())

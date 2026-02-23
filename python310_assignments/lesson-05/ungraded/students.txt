@@ -1,4 +1,4 @@
-Name: Nickname, languages
+Name: Nickname, Languages
 Swift, Taylor: python, java, perl
 Swift, Samuel: Sam
 Brooks, Garth: fortran, java, matlab, bash
