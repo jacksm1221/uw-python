@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+capitalize_modules/__init__.py
+capitalize_modules/capital_mod.py
+capitalize_modules/main.py
+mypackage.egg-info/PKG-INFO
+mypackage.egg-info/SOURCES.txt
+mypackage.egg-info/dependency_links.txt
+mypackage.egg-info/entry_points.txt
+mypackage.egg-info/requires.txt
+mypackage.egg-info/top_level.txt
+tests/test_capital_mod.py

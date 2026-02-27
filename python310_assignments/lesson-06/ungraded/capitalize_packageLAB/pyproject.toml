@@ -1,0 +1,26 @@
+# Setup
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mypackage"
+version = "3.0.0"
+description = "My fancy project."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE.txt"}
+authors = [{name = "A. Random Developer", email = "author@example.com" }]
+maintainers = [{name = "A. Great Maintainer", email = "maintainer@example.com" }]
+
+dependencies = [
+    "Django >= 5.0"
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+
+
+[project.scripts]
+example = "example:main"
